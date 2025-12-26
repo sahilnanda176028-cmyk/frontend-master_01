@@ -1,0 +1,41 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  color: #222;
+  min-height: 70vh; 
+  padding: 70px 8%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.about img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;     
+  border-radius: 10px;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.about h1 {
+  font-size: 36px;
+  padding: 50px;
+  font-weight: 700;
+color: rgb(9, 9, 9);
+
+}
+
+.about p {
+  
+  
+  
+  color: #081818;
+   text-align: center ;
+   padding: 20px;
+   font-size: 17px;
+  
+   
+}

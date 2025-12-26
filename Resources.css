@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section {
+  background-color: #f9fafc;
+}
+
+section h2 {
+  color: #222; 
+  font-weight: bold;
+  margin-top: 0;
+}
+
+section p {
+  color: #f4f1f1;
+  font-size: 18px;
+}
+
+.card {
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  background: #fff;
+  border-color: #0b5ed7;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card h4 {
+  color: #176dec;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #200d0d;
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.btn {
+  border-radius: 30px;
+  padding: 8px 20px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #05ff54;
+  color: #fff;
+}
+
+
+@media (max-width: 768px) {
+  section h2 {
+    font-size: 1.6rem;
+  }
+
+  .card {
+    padding: 1.5rem 1rem;
+  }
+}
